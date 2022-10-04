@@ -75,3 +75,9 @@ footer{
 footer span{
     font-size: 1em;
 }
+.foto-galeria{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+}
