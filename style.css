@@ -1,0 +1,77 @@
+html{
+    background-color: rgb(89, 90, 90);
+}
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 100px;
+}
+.navbar li{
+    display: inline;
+    padding: 0 1em;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar a:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+#cabecera{
+    background-color: blueviolet;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+.titulo h1{
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+
+
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    margin: 2em 0;
+}
+
+.imagen{
+    width: 100%;
+}
+
+
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    height: 20vh;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    font-size: 1em;
+}
